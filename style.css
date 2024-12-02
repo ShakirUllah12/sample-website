@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+  }
+  .product-container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .sale-badge {
+    background: red;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    display: inline-block;
+  }
+  .product-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .product-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  .product-price {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  .free-shipping {
+    color: green;
+    font-weight: bold;
+  }
+  .product-description {
+    color: #555;
+    margin: 15px 0;
+  }
+  .color-options span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  .color-options span.red { background: red; }
+  .color-options span.blue { background: blue; }
+  .color-options span.green { background: green; }
+  .color-options span.yellow { background: yellow; }
+  .color-options span.orange { background: orange; }
+  .product-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  .product-details li
